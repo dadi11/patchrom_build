@@ -25,5 +25,4 @@ private-miui-apps := $(filter-out $(private-remove-apps),$(private-miui-apps))
 private-miui-jars := services \
                      android.policy \
                      telephony-common \
-                     framework \
-                     framework2
+                     framework
